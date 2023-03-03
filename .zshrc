@@ -74,7 +74,7 @@ plugins=(aliases git docker python nobitches)
 
 source $ZSH/oh-my-zsh.sh
 
-source ~/shell-mommy/shell-mommy.sh
+source ~/shell-mommy.sh
 prmptcmd() { mommy }
 autoload -Uz add-zsh-hook
 add-zsh-hook precmd prmptcmd
