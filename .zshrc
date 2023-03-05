@@ -109,6 +109,7 @@ export SHELL_MOMMYS_COLOR='\e[0m'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll="ls -lhtra"
 alias cls="clear"
+alias sortdir="find . -xdev -type f | cut -d "/" -f 2 | sort | uniq -c | sort -n"
 
 #path stuff
 export PATH=/home/finn-dane/bin:/home/finn-dane/.local/bin:$PATH
